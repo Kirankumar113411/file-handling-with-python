@@ -12,7 +12,7 @@ def fun():
             print("enter your file name\n: ")
             f=input("")
             h=f+".txt"
-            with open(h,'x')as file:   
+            with open(h,'x')as file:  
                 print(f,"file is created successfully")
             print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-")    
         case 2:
@@ -46,7 +46,7 @@ def fun():
             print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-")
             print("DELETE FILE\n")
             f=input("")
-            file=os.remove+'.txt'(path)
+            file=os.remove(f+'.txt')
             print("DELETED THE FILE SUCCESSFULLY\n\n")
             print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-")
         case 6:
